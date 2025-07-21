@@ -1,0 +1,10 @@
+{
+  "domain": "daily_content",
+  "name": "英语诗词",
+  "version": "1.0.0",
+  "requirements": ["aiohttp>=3.8.0"],
+  "config_flow": true,
+  "iot_class": "cloud_polling",
+  "codeowners": ["@chaosl1996"],
+  "documentation": "https://github.com/chaosl1996/ha-english-poetry"
+}

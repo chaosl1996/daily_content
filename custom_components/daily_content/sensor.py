@@ -52,7 +52,13 @@ class PoetrySensor(SensorEntity):
             "author": data.get("author"),
             "dynasty": data.get("dynasty"),
             "title": data.get("title"),
-            "content": data.get("content")
+            "content": data.get("content"),
+            "quotes": data.get("quotes"),
+            "translate": data.get("translate"),
+            "preface": data.get("preface"),
+            "reviews": data.get("reviews"),
+            "tags": data.get("tags"),
+            "annotation": data.get("annotation"),
         }
 
 # 英语协调器和传感器
